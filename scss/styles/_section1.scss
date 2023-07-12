@@ -1,0 +1,40 @@
+
+    .background {
+        background-image: url(../images/Rec1.jpg);
+        height: 700px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 80px;
+        margin-bottom: 84px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        .text_div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            .text-s1 {
+                color: #FFF;
+                font-family: Helvetica;
+                font-size: 79px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            .text-s2 {
+                color: #ffffff;
+                font-family: Helvetica;
+                font-size: 19px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-top: 31px;
+            }
+        }
+    }

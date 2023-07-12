@@ -1,0 +1,45 @@
+header {
+    height: 84px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    .container {
+        max-width: 1240px;
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid black;
+        .sidebyside {
+            display: flex;
+            justify-content: space-between;
+        }
+        .logo {
+            border: 1px solid black;
+        }
+        nav{
+            display: flex;
+            justify-content: flex-end;
+            max-width: 554px;
+            width: 100%;
+            border: 1px solid black;
+            align-items: center;
+            
+            ul {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                a{ 
+                    color: $color-s1;
+                    font-family: Helvetica;
+                    font-size: 17px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}
