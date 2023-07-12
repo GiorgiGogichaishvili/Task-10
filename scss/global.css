@@ -74,21 +74,16 @@ header .container {
   max-width: 1240px;
   width: 100%;
   margin: 0 auto;
-  border: 1px solid black;
 }
 header .container .sidebyside {
   display: flex;
   justify-content: space-between;
-}
-header .container .logo {
-  border: 1px solid black;
 }
 header .container nav {
   display: flex;
   justify-content: flex-end;
   max-width: 554px;
   width: 100%;
-  border: 1px solid black;
   align-items: center;
 }
 header .container nav ul {
@@ -148,7 +143,6 @@ header .container nav ul a {
   max-width: 1240px;
   width: 100%;
   margin: 0 auto;
-  border: 1px solid black;
 }
 
 @media (max-width: 1230px) {
@@ -168,7 +162,6 @@ header .container nav ul a {
 .info-text {
   width: 235px;
   height: 212px;
-  border: 1px solid black;
 }
 .info-text .Name {
   color: #636060;
@@ -201,7 +194,6 @@ header .container nav ul a {
   max-width: 920px;
   width: 100%;
   display: flex;
-  border: 1px solid black;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -209,7 +201,6 @@ header .container nav ul a {
 .div-card {
   width: 286px;
   height: 314px;
-  border: 1px solid black;
   margin-bottom: 56px;
 }
 .div-card .img-s1 {
